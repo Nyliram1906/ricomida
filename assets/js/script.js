@@ -21,6 +21,12 @@ let botonFavoritos = document.getElementById ("boton-favoritos")
      alert ("agregado a favoritos") 
 })
 
+document.querySelector('#carouselExampleIndicators').addEventListener('slide.bs.carousel', event => {
+  document.querySelectorAll(".custom-indicator").forEach(element => {
+    element.classList.toggle("active");
+  });
+});
+
 
 
 /* Agrega un evento de clic al primer botón
