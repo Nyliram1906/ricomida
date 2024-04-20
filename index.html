@@ -52,21 +52,22 @@
 </nav>
 
   <!-- Navbar content final-->
+  
   <!-- imagen pizza -->
   <section>
     <div class="container-fluid">
-        <div class="row align-items-center d-flex">
-         <div class="col-12 col-sm-6">
-                <img src="assets/img/principal.jpg" alt="imagenpizza" class="img-fluid ">
+        <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+                <img src="assets/img/principal.jpg" alt="imagen-pizza" class="imagen-pizza">
             </div>
-            <div class="col-12 col-sm-6">
-                <h1>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+            <div class="col-12 col-sm-6 text-center">
+                <h1 class="fw-bold">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
                 <hr>
                 <p>110 MIN / 6 A 8 PORCIONES</p>
-                <button type="button1" id="boton-enviar" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">
+                <button type="button" id="boton-enviar" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">
                     Enviar por Correo
                 </button>
-                <button type="button2" id="boton-favoritos" data-bs-toggle="tooltip" data-bs-placement="right" title="Añade esta receta a tus favoritos">
+                <button type="button" id="boton-favoritos" data-bs-toggle="tooltip" data-bs-placement="right" title="Añade esta receta a tus favoritos">
                     Añadir a favoritos
                 </button>
             </div>
@@ -74,6 +75,31 @@
     </div>
 </section>
 
+
+
+ <!--  <section class="pl-4 text-center align-items-center">
+    <div class="container">
+        <div class="row d-flex text-center">
+         <div class="col-12 col-sm-6">
+                <img src="assets/img/principal.jpg" alt="imagen-pizza" class="imagen-pizza">
+            </div>
+            <div class="col-12 col-sm-6">
+                <h1 class="fw-bold">PIZZA AL ESTILO CHICAGO CON 
+                ESPINACAS Y 
+                CHAMPIÑONES</h1> 
+                <hr>
+                <p>110 MIN / 6 A 8 PORCIONES</p>
+                <button type="button" id="boton-enviar" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">
+                    Enviar por Correo
+                </button>
+                <button type="button" id="boton-favoritos" data-bs-toggle="tooltip" data-bs-placement="right" title="Añade esta receta a tus favoritos">
+                    Añadir a favoritos
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+ -->
 
   <!-- imagen pizza -->
 
@@ -114,7 +140,16 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+     
+  <!-- Controles Carrousel -->
+  <div class="carousel-indicators">
+    <span class="custom-indicator active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></span>
+    <span class="custom-indicator" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></span>
+  </div>
+</div>
+   
+ <!-- Fin sección Carrousel -->
+ <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
@@ -122,17 +157,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
-
-  <!-- Controles Carrousel -->
-
-    <div class="carousel-indicators">
-      <span class="custom-indicator active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></span>
-      <span class="custom-indicator" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></span>
-    </div>
-  </div>
- <!-- Fin sección Carrousel -->
-
+    </div> -->
 
   <!-- receta -->
   
@@ -162,7 +187,7 @@
           <li class="p-0 list-group-item border border-0 fs-5">2 cucharaditas de azúcar</li>
         </ul>
         <h6 class="text-start my-3 fs-4">Relleno</h6>
-        <ul>
+        <ul class="list-group list-receta lh-lg mt-5">
           <li class="p-0 list-group-item border border-0 fs-5">½ cebolla</li>
           <li class="p-0 list-group-item border border-0 fs-5">½ cebolla, en cubos</li>
           <li class="p-0 list-group-item border border-0 fs-5">500 gr hojas de espinacas picadas</li>
@@ -244,9 +269,11 @@
 
 
   <!-- Footer-->
+ 
   <footer class="text-center p-3" style="background-color: #373A3C; font-family: 'Lobster', cursive; color: #FFFFFF;">
+    
     <h2>Ricomida</h2>
-
+  
   </footer>
 
   <!-- javascript -->
