@@ -8,6 +8,9 @@ document.getElementById("boton2").addEventListener("click", function() {
   alert("Mensaje del segundo botón");
 }); */
 
+  $("h5").dblclick(function(){
+      $(this).css("color", "red")
+  })
 
 
 let botonEnviar = document.getElementById ("boton-enviar")

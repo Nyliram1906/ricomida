@@ -14,7 +14,15 @@ font-family: "Cabin", sans-serif;
 
 
  */
-footer {
+ .imagen-pizza {
+  width: 100%;
+  height: auto;
+
+ }
+
+
+
+ footer {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -35,3 +43,11 @@ footer {
   width: 25px;
   background-color: black;
 }
+
+/* 
+@media only screen and (min-width: 768px) {
+  .imagen-pizza {
+    width: 75%;
+    
+  }
+} */
