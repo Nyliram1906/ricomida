@@ -8,6 +8,9 @@ document.getElementById("boton2").addEventListener("click", function() {
   alert("Mensaje del segundo botón");
 }); */
 
+  $("h5").dblclick(function(){
+      $(this).css("color", "red")
+  })
 
 
 let botonEnviar = document.getElementById ("boton-enviar")
@@ -20,6 +23,12 @@ let botonFavoritos = document.getElementById ("boton-favoritos")
  botonFavoritos.addEventListener ("click", ()=>{
      alert ("agregado a favoritos") 
 })
+
+document.querySelector('#carouselExampleIndicators').addEventListener('slide.bs.carousel', event => {
+  document.querySelectorAll(".custom-indicator").forEach(element => {
+    element.classList.toggle("active");
+  });
+});
 
 
 

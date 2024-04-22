@@ -14,9 +14,40 @@ font-family: "Cabin", sans-serif;
 
 
  */
-footer {
+ .imagen-pizza {
+  width: 100%;
+  height: auto;
+
+ }
+
+
+
+ footer {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
     
 }
+
+
+.carousel-indicators {
+  position: relative;
+  list-style: none;
+  margin-top: 35px;
+}
+
+.carousel-indicators > .custom-indicator {
+  display: inline-block;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+}
+
+/* 
+@media only screen and (min-width: 768px) {
+  .imagen-pizza {
+    width: 75%;
+    
+  }
+} */
